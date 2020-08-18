@@ -1,0 +1,57 @@
+<div>
+                    <img src="img/hqdefault.jpg" width="60">
+                    <span>$32.99</span>
+                    <span><input type="number" value="1" ></span>
+                    <span><button>Remove</button></span>
+</div>
+
+
+.cart-row
+{
+    display:flex;
+    justify-content: space-evenly;
+    
+    
+}
+.cart-item-col
+{
+    width:100px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.cart-price-col
+{
+    width:300px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.cart-qty-col
+{
+    width:300px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.cart-img
+{
+   
+    
+}
+
+<div class="cart-row">
+
+                    <img class="cart-img cart-item-col"src="img/vainko-melange-fabric-t-shirt-brodha-v-486508.jpg" width="60">
+                    <span class="cart-price cart-price-col" >$4.99</span>
+                    <div class="cart-qty-col">
+                      <input type="number" value="1" class="cart-qnty">
+                      <button class="cart-btn">Remove</button>
+                    </div>  
+                 </div>
+                 <br>
+                 <div class="cart-row">
+                    <img class="cart-item-col cart-img" src="img/hqdefault.jpg" width="60">
+                    <span class="cart-price-col cart-price" >$32.99</span>
+                    <div class="cart-qty-col">
+                      <input type="number" value="1" class="cart-qnty">
+                      <button class="cart-btn">Remove</button>
+                    </div>
+                 </div>
